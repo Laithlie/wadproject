@@ -9,7 +9,9 @@
 	<h1>Rango says...</h1>
 	<div>
 		Here is the about page. <br />
+		Visits: {{ visits }} <br />
 		This tutorial has been put together by Ree Rolph<br />
 		<img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
 		<img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." />
+	</div>
 {% endblock %}
